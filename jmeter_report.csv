@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,success,bytes,sentBytes,latency,threadName,connect
+1709472000,120,Homepage,200,True,2048,512,100,Thread-1,50
+1709472001,250,Login API,500,False,1024,256,230,Thread-2,120
+1709472002,180,Checkout API,200,True,3072,768,150,Thread-1,70
+1709472003,90,Product Page,200,True,512,128,70,Thread-3,30
+1709472004,300,Payment API,503,False,0,0,280,Thread-2,200
